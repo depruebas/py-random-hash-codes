@@ -18,5 +18,5 @@ def generateUUIDCode(n):
 if __name__ == "__main__":
 
     long_code = int(sys.argv[1]) if len(sys.argv) > 1 else 10
-    print(f"Código ({long_code}): {generateRandomCode(long_code)} \n")
+    print(f"Código ({long_code}): {generateRandomCode(long_code)}")
     print(f"Código ({long_code}): {generateUUIDCode(long_code)} \n")
